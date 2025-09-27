@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login page error",
+    "description": "Users unable to login with correct credentials",
+    "customer": "Alice",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-20"
+  },
+  {
+    "id": 2,
+    "title": "Dashboard not loading",
+    "description": "Dashboard fails to load after login",
+    "customer": "Bob",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-21"
+  },
+  {
+    "id": 3,
+    "title": "Profile update issue",
+    "description": "Profile changes not saving",
+    "customer": "Charlie",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-22"
+  },
+  {
+    "id": 4,
+    "title": "Payment gateway error",
+    "description": "Transactions failing intermittently",
+    "customer": "David",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-23"
+  },
+  {
+    "id": 5,
+    "title": "Notification emails not sent",
+    "description": "Users not receiving notification emails",
+    "customer": "Eve",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-24"
+  },
+  {
+    "id": 6,
+    "title": "Search function slow",
+    "description": "Search results take too long to appear",
+    "customer": "Frank",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-24"
+  },
+  {
+    "id": 7,
+    "title": "Export to CSV fails",
+    "description": "Export feature gives error on large data",
+    "customer": "Grace",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2025-09-25"
+  },
+  {
+    "id": 8,
+    "title": "UI layout broken on mobile",
+    "description": "Mobile view has overlapping elements",
+    "customer": "Hank",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-26"
+  },
+  {
+    "id": 9,
+    "title": "Password reset email delay",
+    "description": "Password reset emails take too long to arrive",
+    "customer": "Ivy",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-26"
+  },
+  {
+    "id": 10,
+    "title": "Broken links on homepage",
+    "description": "Some links on homepage redirect to 404",
+    "customer": "Jack",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2025-09-27"
+  }
+]

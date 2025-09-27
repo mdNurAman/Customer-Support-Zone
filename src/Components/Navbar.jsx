@@ -12,24 +12,12 @@ const Navbar = () => {
             <div className="md:hidden">
               <div className="flex gap-1 md:gap-4">
                 <select name="" id="">
-                  <option>
-                    <button>Home</button>
-                  </option>
-                  <option>
-                    <button>FAQ</button>
-                  </option>
-                  <option>
-                    <button>Changelog</button>
-                  </option>
-                  <option>
-                    <button>Blog</button>
-                  </option>
-                  <option>
-                    <button>Download</button>
-                  </option>
-                  <option>
-                    <button>Contact</button>
-                  </option>
+                  <option>Home</option>
+                  <option>FAQ</option>
+                  <option>Changelog</option>
+                  <option>Blog</option>
+                  <option>Download</option>
+                  <option>Contact</option>
                 </select>
               </div>
             </div>
