@@ -1,9 +1,9 @@
 import React from "react";
 import vector1 from "../assets/vector1.png";
-const Status = () => {
+const Status = ({ inProgressCount = 0, resolvedCount = 0 }) => {
   return (
     <div className="container mx-auto my-20 ">
-      <div className="flex justify-between gap-5 text-white">
+      <div className="flex  justify-between gap-5 text-white">
         {/* Card 1 */}
         <div className="relative overflow-hidden flex-1 text-center text-4xl font-bold py-14 bg-gradient-to-br from-[#632EE3] to-[#9F62F2] rounded-md">
           <div
@@ -25,7 +25,7 @@ const Status = () => {
           />
           <div className="relative z-10">
             <h1 className="text-2xl">In-Progress</h1>
-            <h1 className="text-6xl">0</h1>
+            <h1 className="text-6xl">{inProgressCount}</h1>
           </div>
         </div>
 
@@ -49,7 +49,7 @@ const Status = () => {
           />
           <div className="relative z-10">
             <h1 className="text-2xl">Resolved</h1>
-            <h1 className="text-6xl">0</h1>
+            <h1 className="text-6xl">{resolvedCount}</h1>
           </div>
         </div>
       </div>
