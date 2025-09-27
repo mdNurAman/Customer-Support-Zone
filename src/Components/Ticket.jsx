@@ -1,8 +1,23 @@
 import React from "react";
-
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+const showAlert = (ticketTitle) => {
+  toast.success(`Ticket selected: ${ticketTitle}`, {
+    position: "top-right",
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    theme: "colored",
+  });
+};
 const Ticket = ({ ticket }) => {
   return (
-    <div className="bg-white p-4 rounded-sm shadow-sm">
+    <div
+      className="bg-white p-4 rounded-sm shadow-sm "
+      onClick={() => showAlert(ticket.title)}
+    >
       <div className="flex justify-between items-center mb-2">
         <h2 className="text-lg font-medium">{ticket.title}</h2>
         <p
